@@ -7,5 +7,5 @@ class User < ActiveRecord::Base
                     uniqueness: { case_sensitive: false }
   has_secure_password
   validates :password, length: { minimum: 6 }
-  validates :real_name { maximum: 75, minimum: 2}
+  validates :real_name, length: { maximum: 75, minimum: 2 }
 end
