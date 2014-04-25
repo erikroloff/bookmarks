@@ -7,12 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<header>
-		<nav>
-			<a href="/bookmarks">View all bookmarks</a>
-			<a href="/bookmarks/new">Add new bookmark</a>
-		</nav>
-	</header>
+    <%= render 'layouts/header' %>
+	
 
 <%= yield %>
 
