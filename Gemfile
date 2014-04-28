@@ -18,6 +18,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use for password hash
 gem 'bcrypt-ruby'
 
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

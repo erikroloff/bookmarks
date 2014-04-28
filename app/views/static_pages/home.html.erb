@@ -6,6 +6,8 @@
       This is the home page for the
       bookmark application.
     </h2>
+
+    <%= render 'shared/feed' %>
 <% else %>
   <h1>Welcome to the Bookmark App</h1>
 
@@ -13,6 +15,7 @@
     This is the home page for the
     bookmark application.
   </h2>
+
   <div class="span6 offset3">
     <%= form_for(:session, url: sessions_path) do |f| %>
 
